@@ -1,0 +1,21 @@
+.skill,
+.skill::before,
+.skill::after {
+    box-sizing: border-box;
+    border: 1px solid gray;
+    background-color: darkcyan;
+    margin: 40px;
+    /* color: sandybrown; */
+}
+
+.skills_title {
+    color: cadetblue;
+    margin-top: 40px;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin: 30px;
+}

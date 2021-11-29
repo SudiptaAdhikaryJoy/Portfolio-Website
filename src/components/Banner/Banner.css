@@ -1,0 +1,55 @@
+.top_banner {
+    background-color: rgb(231, 227, 227);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.peragraph {
+    font-size: 10px;
+}
+
+.title_color {
+    color: orange;
+}
+
+.flexible_container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half_width {
+    width: 50%;
+    padding: 30px;
+}
+
+.half_width img {
+    width: 80%;
+
+}
+
+.link_button {
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-image: linear-gradient(orange, tomato);
+    color: papayawhip;
+    font-weight: 700;
+
+
+}
+
+.top_banner {
+    background-image: url("https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-repeat: no-repeat;
+}
