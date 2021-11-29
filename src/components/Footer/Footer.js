@@ -44,7 +44,7 @@ const Footer = () => {
                                 <span>818-5670-8750</span>
                             </div>
                             <div>
-                                <span>supriya.cucse@gmail.com</span>
+                                <span>sudiptaadhikaryjoy@gmail.com</span>
                             </div>
                         </div>
                     </Col>
@@ -55,7 +55,7 @@ const Footer = () => {
                         </div>
                     </Col>
                 </Row>
-                <p>Copy Right @supriaDebnath</p>
+                <p>Copy Right @ sudiptaadhikaryjoy</p>
             </Container>
         </div>
     );
