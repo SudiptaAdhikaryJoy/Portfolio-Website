@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Card, CardGroup } from 'react-bootstrap';
+import { Container, Card, CardGroup,Button } from 'react-bootstrap';
 import'./Projects.css';
 
 const Projects = () => {
@@ -10,36 +10,36 @@ const Projects = () => {
 <Container className="top">
            <h2 className="title">Projects</h2>
             <CardGroup>
-  <Card className='single_card'>
+  <Card id="#projects" className='single_card border-1 rounded-4 border'>
     <Card.Img variant="top" src="https://ichef.bbci.co.uk/news/976/cpsprodpb/180CA/production/_119360589_cars.jpg" />
     <Card.Body>
-      <Card.Title>CAR SALES</Card.Title>
-      <Card.Text>
-      	 Responsive website.
-	    Firebase Login System.
-         Technology: React, React-Bootstrap, Firebase Authentication, Node, Express, Mongodb
-
+      <Card.Title style={{fontWeight: 'bold'}}>Dodge Cars</Card.Title>
+      <Card.Text style={{fontWeight: 'bold'}}>
+        Technology: React, React-Bootstrap, Firebase Authentication, Node, Express, Mongodb
       </Card.Text>
+      <Button>Details</Button>
     </Card.Body>
   </Card>
   <Card className='single_card'>
-    <Card.Img variant="top" src="https://www.thestatesman.com/wp-content/uploads/2018/04/Fashion-Store.jpg" />
+    <Card.Img variant="top" src="https://previews.123rf.com/images/vectorknight/vectorknight1811/vectorknight181100007/112003696-mobile-application-development-process-software-api-prototyping-and-testing-background-experienced-t.jpg" />
     <Card.Body>
-      <Card.Title>FASHION STORE</Card.Title>
-      <Card.Text>
-          This is Fashion Store website.Technology used react, bootstrap, CSS, netlify.
+      <Card.Title style={{fontWeight: 'bold'}}>BENGALDROID SOFTWARE TEAM</Card.Title>
+      <Card.Text style={{fontWeight: 'bold'}}>
+        Technology: React, React-Bootstrap, Firebase Authentication, Node, Express, Mongodb
       </Card.Text>
+      <Button>Details</Button>
     </Card.Body>
   </Card>
   <Card className='single_card'>
-    <Card.Img variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs5odqFR-_emf_v0jeVs21eOKsOacJFhyhtQ&usqp=CAU" />
+    <Card.Img variant="top" src="https://wallpaperaccess.com/full/1087589.jpg" />
     <Card.Body>
-      <Card.Title>TOUR BOOKING</Card.Title>
-      <Card.Text>
-        This is a Tourism related website.
+      <Card.Title>FITNESSEDGE GYM</Card.Title>
+      <Card.Text style={{fontWeight: 'bold'}}>
+        
     	 Technology: React, React-Bootstrap, Firebase Authentication, Node, Express, Mongodb
 
       </Card.Text>
+      <Button>Details</Button>
     </Card.Body>
   </Card>
 </CardGroup>

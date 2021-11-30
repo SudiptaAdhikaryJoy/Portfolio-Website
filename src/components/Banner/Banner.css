@@ -19,7 +19,7 @@ h3 {
 }
 
 .title_color {
-    color: orange;
+    color: #626455;
 }
 
 .flexible_container {
@@ -50,6 +50,6 @@ h3 {
 }
 
 .top_banner {
-    background-image: url("https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-image: url("https://images.unsplash.com/photo-1512950050685-b1d4ae63d2df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80");
     background-repeat: no-repeat;
 }

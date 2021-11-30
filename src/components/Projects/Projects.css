@@ -3,8 +3,10 @@
 }
 
 .title {
-    color: cadetblue;
-    margin-top: 50px;
+    color: #030707ef;
+    margin-top: 80px;
+    font-weight: 800;
+    /* font-size: medium; */
 }
 
 .top {

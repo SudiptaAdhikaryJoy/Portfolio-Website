@@ -31,7 +31,8 @@
     color: #fffffe;
     padding: 10px 15px;
     border: 2px solid #ff8906;
-    border-radius: 20px;
+    border-radius: 5px;
+    
 }
 
 .footer-button:hover {

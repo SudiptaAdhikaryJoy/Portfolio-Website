@@ -7,14 +7,14 @@ import './About.css';
 const About = () => {
     return (
         <>
-        <Container>
+        <Container id='#about' style={{marginTop:'80px'}}>
         <div class="about">
         <div class="half">
         <img className="img-fluid border-1 rounded-1" src={img} alt="" />
         </div>
         <div class="half">
-            <h1>About Me</h1>
-            <h3>Become a Web Developer</h3>
+            <h1 style={{fontWeight: 'bold'}}>About Me</h1>
+            <h3>Jr. MERN Stack Developer</h3>
             <p> Thanks for having me
            I'm Sudipta Adhikary Joy from Bangladesh. I'm interested in problem solving and learning new stuff. I would like to learn more on web development and technology . I am a computer science student wanting to increase my knowledge on computer science as well. I know this community would help me a lot to learn so many things.</p>
             <Button class="link_button" target="_blank" as={Link} to="/about" >Read More</Button>

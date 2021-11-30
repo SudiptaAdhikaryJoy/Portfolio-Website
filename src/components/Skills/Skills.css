@@ -2,15 +2,17 @@
 .skill::before,
 .skill::after {
     box-sizing: border-box;
-    border: 1px solid gray;
-    background-color: darkcyan;
+    border: 1px solid rgb(155, 143, 143);
+    background-color: rgb(145, 180, 180);
     margin: 40px;
     /* color: sandybrown; */
 }
 
 .skills_title {
-    color: cadetblue;
-    margin-top: 40px;
+    color: #0f1213;
+    /* margin-top: 40px; */
+    margin-top: 80px;
+    font-weight: 800;
 }
 
 .skills {

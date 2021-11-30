@@ -5,7 +5,7 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div className="footer-style py-5 mt-5">
+        <div className="footer-style py-5 mt-5 fixed">
             <Container>
                 <Row>
                     <Col md={3} xs={12} className="my-3">
@@ -23,13 +23,24 @@ const Footer = () => {
                     <Col md={3} xs={12} className="my-3">
                         <div>
                             <div>
-                                <Link to="/" className="quick-link">
+                                <Link to="/home" className="quick-link">
                                     Home
                                 </Link>
+                                
                             </div>
                             <div className="quick-link">
                                 <Link to="/contact" className="quick-link">
                                     contact
+                                </Link>
+                            </div>
+                            <div className="quick-link">
+                                <Link to="/about" className="quick-link">
+                                    About
+                                </Link>
+                            </div>
+                            <div className="quick-link">
+                                <Link to="/blog" className="quick-link">
+                                    Blog
                                 </Link>
                             </div>
                             
@@ -49,13 +60,17 @@ const Footer = () => {
                         </div>
                     </Col>
                     <Col md={3} xs={12} className="my-3">
-                        <div>
-                            <h4>For Read</h4>
+                        <div >
+                            <h4>Notify Me</h4>
+                            <div className="d-flex">
+                            
+                            <input type="email" placeholder="Email address" />
                             <button className="footer-button">subscribe</button>
+                            </div>
                         </div>
                     </Col>
                 </Row>
-                <p>Copy Right @ sudiptaadhikaryjoy</p>
+                <p>Copyright &copy; {new Date().getFullYear()} All Rights Reserved</p>
             </Container>
         </div>
     );

@@ -10,19 +10,22 @@ const Contact = () => {
         
         ).catch(err=>console.log(err));
     }
+    
     return (
         <div className="container border"
             style={{marginTop:'50px',
             width: '50%',
-            backgroundImage: `url('https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg)`,
+            backgroundImage: `url('https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg')`,
             backgroundPosition: 'center',
             backgroundSize: 'cover'
         }}
         
         >
+            
             <h1 style={{marginTop: '25px'}}>Contact Form</h1>
-            <form className='row' style={{ margin:'25px 85px 75px 100px'}} onSubmit={sendEmail}>
-                <label>name</label>
+            
+            <form className='row' style={{ margin:'25px 85px 75px 100px', color:'#fff'}} onSubmit={sendEmail}>
+                <label>Name</label>
                 <input type="text" name="name" className="form-control" />
 
                 <label>Email</label>
@@ -34,7 +37,7 @@ const Contact = () => {
                  type="submit" 
                  value="send" 
                  className="form-control btn btn-primary"
-                 style={{marginTop:'30px'}}
+                 style={{marginTop:'30px',}}
                  />
             </form>
         </div>
