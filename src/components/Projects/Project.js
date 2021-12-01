@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { UserContext } from '../../App';
 
 const Project = ({project}) => {
-    const {name, img} = project;
+    const {name, img, description} = project;
     const {setCart} = useContext(UserContext);
 
     return (
@@ -20,7 +20,7 @@ const Project = ({project}) => {
           </div>
           <Card.Body>
             <Card.Title style={{fontWeight: 'bold', marginTop: '20px'}}>{name}</Card.Title>
-            {/* <Card.Text>{description}</Card.Text> */}
+            <Card.Text>Description:{description}</Card.Text>
             <Button as={Link} to="/details" onClick={()=>setCart(project)} className="service-btn"> More Details</Button>
           </Card.Body>
         </Card>
