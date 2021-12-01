@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Dodge Cars",
+        "description":" car-rental| A car sales website.Responsive website. Firebase Login System.Tech Stack Client: React, React-Bootstrap, firebase.Server: Node, Express, Mongodb.Hosting: Heroku(API), firebase(site).About - Car-rental Easy to use Fully Authentication supported Google log in Mobile Responsive Single Page application User order system User My order system All manage system package/services manage system",
+        "img": "https://ichef.bbci.co.uk/news/976/cpsprodpb/180CA/production/_119360589_cars.jpg",
+        "img1":"https://i.ibb.co/SRRHsbj/Dodge-car-1.png",
+        "img2":"https://i.ibb.co/mbLncMn/Dodge-car-2.png",
+        "img3":"https://i.ibb.co/37fmRGr/Dodge-car-3.png",
+        "link": "https://dodge-cars-b4823.web.app/",
+        "client": "https://github.com/SudiptaAdhikaryJoy/Dodge-Cars-Client-Side",
+        "server": "https://github.com/SudiptaAdhikaryJoy/Dodge-Cars-Server-Side"
+        
+    },
+    {
+        "name": "BENGALDROID SOFTWARE TEAM",
+        "description":"In this project we can use react technology and by this project we can add our developer salary and names. And members number.",
+        "img": "https://previews.123rf.com/images/vectorknight/vectorknight1811/vectorknight181100007/112003696-mobile-application-development-process-software-api-prototyping-and-testing-background-experienced-t.jpg",
+        "img1":"https://i.ibb.co/SfMfhr5/SWE-1.png",
+        "img2":"https://i.ibb.co/8bzhXvW/SWE-2.png",
+        "img3":"https://i.ibb.co/bNMGrbg/SWE-3.png",
+        "link":"https://lucid-nobel-06dd1f.netlify.app/",
+        "client": "https://github.com/SudiptaAdhikaryJoy/BengalDroid-Software-Team"
+    },
+    {
+        "name": "FITNESSEDGE GYM",
+        "description":"This is a Tourism related website. Tour-booking | A tourism guide website A Travel Agency SPA (single page application), where user can can book the services, manage both his and all bookings, also can create a new package of his own.Tech Stack Client: React, React-Bootstrap, firebase.Server: Node, Express, Mongodb.Hosting: Heroku(API), firebase(site).About - Tour-booking Easy to use Fully Authentication supported Google log in Mobile Responsive Single Page application User booking system User My booking system All booking manage system package/services manage system.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs5odqFR-_emf_v0jeVs21eOKsOacJFhyhtQ&usqp=CAU",
+        "img1":"https://i.ibb.co/s5pz3DY/Fit-1.png",
+        "img2":"https://i.ibb.co/r6bbqSy/Fit-2.png",
+        "img3":"https://i.ibb.co/chvGqFk/Fit-3.png",
+        "link": "https://fitnessedge-gym.web.app/",
+        "client": "https://github.com/SudiptaAdhikaryJoy/FitnessEdge-Gym"
+        
+    }
+]

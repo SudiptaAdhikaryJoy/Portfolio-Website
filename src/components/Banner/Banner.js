@@ -1,5 +1,7 @@
 import React from 'react';
 import Typical from 'react-typical';
+import { BsFacebook, BsInstagram } from "react-icons/bs";
+import { FaGithub} from "react-icons/fa";
 import { Nav, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import img from '../../images/IMG09.jpg';
@@ -29,10 +31,13 @@ const Banner = () => {
                  />
             </h1>
             </span> with glorious purpose.</h3>
-        
+           <a target="_blank" href="https://www.facebook.com/sudiptaadhikaryjoy005/"><BsFacebook size='2em' color='blue' /></a> 
+           <a style={{marginLeft: '10px'}} target="_blank" href="https://github.com/SudiptaAdhikaryJoy"><FaGithub size='2em' color='black' /></a> 
+           <a style={{marginLeft: '10px'}} target="_blank" href="https://www.instagram.com/panditji0005/"><BsInstagram size='2em' color='#fd1d1d' /></a> 
+            <br />
         
         {/* <a class="link_button" target="_blank" href="https://www.linkedin.com/company/programminghero/">HIRE ME</a> */}
-        <Button style={{marginTop:'20px'}}><a style={{color:'#fff', textDecoration: 'none'}} href="https://www.linkedin.com/in/sudipta-adhikary-joy-4b6318148/">Learn More</a></Button>
+        <Button style={{marginTop:'20px'}}><a style={{color:'#fff', textDecoration: 'none'}} href="https://www.linkedin.com/in/sudipta-adhikary-joy-4b6318148/">Hire Me</a></Button>
 
         </div>
        
