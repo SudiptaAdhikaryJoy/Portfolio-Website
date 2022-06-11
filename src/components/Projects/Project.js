@@ -1,14 +1,21 @@
 import React, { useContext } from 'react';
 import { Card, Col, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+
 import { UserContext } from '../../App';
+// import Swiper1 from '../Swiper/Swiper';
+// import Swiper1 from '../Swiper/Swiper';
+
 
 const Project = ({project}) => {
     const {name, img, description} = project;
     const {setCart} = useContext(UserContext);
 
+    
+
     return (
         <Col>
+        {/* <Swiper1></Swiper1> */}
         <Card className="shadow mb-4">
           <div className="d-flex align-items-center p-2">
             <Card.Img
@@ -24,6 +31,7 @@ const Project = ({project}) => {
             <Button as={Link} to="/details" onClick={()=>setCart(project)} className="service-btn"> More Details</Button>
           </Card.Body>
         </Card>
+      
       </Col>
     );
 };

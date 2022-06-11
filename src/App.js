@@ -10,6 +10,7 @@ import About from './components/About/About';
 import Blog from './components/Blog/Blog';
 import Details from './components/Projects/Details';
 import { createContext, useState } from 'react';
+// import Preloader from 'react-preloaders/lib/Preloader';
 // import { Spinner } from 'react-bootstrap';
 // import ParticlesContainer from './ParticlesContainer';
 
@@ -24,6 +25,7 @@ function App() {
     <UserContext.Provider value={{cart, setCart}}>
     <div className="App">
       {/* <Spinner animation="border" /> */}
+      {/* <Preloader/> */}
       <BrowserRouter>
         <Header></Header>
         <Switch>    

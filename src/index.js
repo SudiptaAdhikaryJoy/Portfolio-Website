@@ -1,10 +1,13 @@
 import React from 'react';
+// import {Lines} from 'react-preloaders';
+
 import { render } from "react-dom";
-import Particles from "./Particles";
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import Preloader from './components/Preloader/Preloader';
+
 
 
 
@@ -12,6 +15,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    {/* <Preloader /> */}
     <App />
   </React.StrictMode>,
   document.getElementById('root')
