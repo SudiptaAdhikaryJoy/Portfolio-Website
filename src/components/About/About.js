@@ -5,14 +5,17 @@ import img from '../../images/IMG01.jpg';
 import './About.css';
 
 const About = () => {
+    
     return (
         <>
+        
         <Container id='#about' style={{marginTop:'80px'}}>
         <div class="about">
         <div class="half">
         <img className="img-fluid border-1 rounded-1" src={img} alt="" />
         </div>
         <div class="half">
+            
             <h1 style={{fontWeight: 'bold'}}>About Me</h1>
             <h3>Jr. MERN Stack Developer</h3>
             <p> Thanks for having me
