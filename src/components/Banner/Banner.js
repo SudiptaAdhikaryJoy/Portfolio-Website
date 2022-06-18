@@ -11,25 +11,24 @@ import './Banner.css';
 const Banner = () => {
     
     return (
-        <div>
-              
+        <div>              
               <section class="top_banner flexible_container">
         <div class="half_width" style={{marginTop:'100px'}}>
             <h1>Welcome To</h1>
-        <h2><span class="title_color">Sudipta Adhikary Joy</span> World</h2>
-        <h3 style={{color: '#203A43'}}>I am Sudipta Adhikary Joy and I am a<span>
+        <h2><span>My</span> Portfolio</h2>
+        <h3 style={{color: '#203A43'}}>I'm Sudipta Adhikary Joy and I am a<span>
             {" "}
             <h1 style={{color: '#457fca'}}>
                 {" "}
                 <Typical
                 loop={ Infinity}
                 steps={[
+                    "Software Engineer",
+                    900, 
                     "Full Stack Developer",
                     900, 
                     "MERN Stack Developer",
-                    900, 
-                    "Backend Stack Developer",
-                    800, 
+                    900
                 ]}
                  />
             </h1>
