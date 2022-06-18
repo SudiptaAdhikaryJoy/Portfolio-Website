@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Lines } from 'react-preloaders';
 import Home from '../Home/Home';
  
-function App() {
+export default function App() {
   const [loading, setLoading] = useState(true);
  
   useEffect(() => {
@@ -23,3 +23,4 @@ function App() {
     </React.Fragment>
   );
 }
+
