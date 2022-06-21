@@ -8,9 +8,10 @@ const About = () => {
     
     return (
         <>
-        
-        <Container id='#about' style={{marginTop:'80px'}}>
-        <div class="about">
+        <div>
+
+        <Container id='#about'  style={{marginTop:'80px'}}>
+        <div class="about ">
         <div class="half">
         <img className="img-fluid border-1 rounded-1" src={img} alt="" />
         </div>
@@ -27,6 +28,7 @@ const About = () => {
 
     </div>
         </Container>
+        </div>
         </>
     );
 };

@@ -6,6 +6,7 @@ import Contact from '../Contact/Contact';
 import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills';
 import Particles from 'react-tsparticles';
+import './Home.css';
 
 
 const Home = () => {
@@ -18,11 +19,16 @@ const Home = () => {
   const particlesLoaded = (container) => {
     console.log(container);
   };
+
+ 
+
+
     
     return (
-        <div>
+        <>
       
-            <Banner></Banner>
+            <div className='color'>
+
             <About/>
             <Particles
       id="tsparticles"
@@ -102,10 +108,12 @@ const Home = () => {
         detectRetina: true,
       }}
     />
+
             <Projects/>
             <Skills/>
             <Contact></Contact>
-        </div>
+              </div>
+        </>
     );
 };
 

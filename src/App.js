@@ -10,6 +10,7 @@ import About from './components/About/About';
 import Blog from './components/Blog/Blog';
 import Details from './components/Projects/Details';
 import { createContext, useState } from 'react';
+import Banner from './components/Banner/Banner';
 // import Preloader from 'react-preloaders/lib/Preloader';
 // import { Spinner } from 'react-bootstrap';
 // import ParticlesContainer from './ParticlesContainer';
@@ -28,6 +29,8 @@ function App() {
       {/* <Preloader/> */}
       <BrowserRouter>
         <Header></Header>
+            <Banner></Banner>
+
         <Switch>    
           <Route exact path="/">
             <Home></Home>

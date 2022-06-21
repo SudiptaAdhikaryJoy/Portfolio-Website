@@ -14,8 +14,8 @@ const Projects = () => {
 
 
   return (
-    <div style={{marginTop:'50px'}}>
-            <h2 className="service-title" style={{fontWeight: 'bold'}}>My Projects</h2>
+    <div className='project' style={{marginTop:'50px'}}>
+            <h2 className="service-title" style={{fontWeight: 'bold', color:'#fff'}}>My Projects</h2>
        
         <div className="service-container">
              

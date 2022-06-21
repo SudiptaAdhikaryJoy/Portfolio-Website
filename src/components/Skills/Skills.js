@@ -5,9 +5,10 @@ import './Skills.css';
 const Skills = () => {
     return (
         
-             <>
-            <Container>
-            <h2 className="skills_title"> My Skills</h2>
+        <>
+            <div className="color">
+        <Container>
+            <h2 className="skills_title" > My Skills</h2>
         
         <div className="skills">
         <div className="skill">
@@ -37,7 +38,9 @@ const Skills = () => {
         <ProgressBar animated now={70} label={`70%`} />
             </div>
         </div>
+
             </Container>
+            </div>
         </>
         
     );
